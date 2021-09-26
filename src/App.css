@@ -1,5 +1,28 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.record-btn, .stop-btn{
+  padding: 5px 6px 5px 6px;/* top right bottom left */
+  font-size: 100%;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 0.0005px solid;
+  /* border: none;
+  border-radius: 50%;
+  background-color: #fff; */
+}
+
+.audioR{
+  margin-top: 3px;
+}
+
+.record-btn:hover, .stop-btn:hover, .offrecord:hover{
+  cursor: pointer;
 }
 
 .App-logo {
@@ -24,8 +47,8 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-microphone, .fa-stop{
+  margin-left: 4px;
 }
 
 @keyframes App-logo-spin {

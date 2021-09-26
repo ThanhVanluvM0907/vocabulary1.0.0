@@ -1,0 +1,91 @@
+.Card{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eCard{
+    width: 340px;
+    height: auto;
+    padding: 5px 5px 10px 5px;
+    border: 1px grey solid;
+    border-radius: 6px;
+    margin: 2% 1.5% 2% 1.5%; 
+    /* top right bottom left */
+}
+
+.V-img{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1.5%;
+    width: 96%;
+    border-radius: 6px;
+    /* height: 60%; */
+}
+
+.V-word{
+    margin-top: 4px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Phonetic{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.fa-volume-up{
+    font-size: 110%;
+    margin-left: 2px;
+}
+
+.V-proun{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Proun{
+    background: #088dfa;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.Proun:hover{
+    cursor: pointer;
+    background: #2f33ff;
+}
+
+#pause{
+    display: none;
+}
+
+.V-meaning{
+    text-align: center;
+    line-height: 150%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 18px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 414 px){
+    .Card{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}

@@ -1,0 +1,78 @@
+.KoreanCard{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: auto;
+    padding: 5px 5px 10px 5px;
+    border: 1px grey solid;
+    border-radius: 7px;
+    margin: 2% 1.5% 2% 1.5%; 
+    /* top right bottom left */
+}
+
+.k-img{
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1.5%;
+    width: 98%;
+    border-radius: 7px;
+    /* height: 60%; */
+}
+
+.k-word{
+    margin-top: 4px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Batang';
+}
+
+.fa-volume-up{
+    font-size: 110%;
+}
+
+.Kproun{
+    background: #088dfa;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 2px;
+}
+
+.Kproun:hover{
+    cursor: pointer;
+    background: #2f33ff;
+}
+
+.k-meaning{
+    text-align: center;
+    line-height: 150%;
+    margin-left: 2.5%;
+    margin-right: 2%;
+    margin-top: 1.6%;
+    font-size: 18px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 414 px){
+    .KoreanCard{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}

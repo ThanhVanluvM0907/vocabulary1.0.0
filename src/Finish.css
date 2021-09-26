@@ -1,0 +1,33 @@
+.finish{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#prev, #next, #this{
+    padding: 8px;
+    background: blue;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#prev>a, #next>a, #this>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 110%;
+}
+
+#prev:hover, #next:hover, #this:hover{
+    cursor: pointer;
+    background: rgb(73, 102, 199);
+}
+
+#prev{
+    margin-right: 26px;
+}
+
+#next{
+    margin-left: 26px;
+}
