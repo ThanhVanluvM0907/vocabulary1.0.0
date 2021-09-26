@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vocabulary1.0.0/static/css/main.fb04616d.chunk.css",
+    "main.js": "/vocabulary1.0.0/static/js/main.1a525852.chunk.js",
+    "main.js.map": "/vocabulary1.0.0/static/js/main.1a525852.chunk.js.map",
+    "runtime-main.js": "/vocabulary1.0.0/static/js/runtime-main.01aa542d.js",
+    "runtime-main.js.map": "/vocabulary1.0.0/static/js/runtime-main.01aa542d.js.map",
+    "static/js/2.c91357fe.chunk.js": "/vocabulary1.0.0/static/js/2.c91357fe.chunk.js",
+    "static/js/2.c91357fe.chunk.js.map": "/vocabulary1.0.0/static/js/2.c91357fe.chunk.js.map",
+    "static/js/3.e50ae67a.chunk.js": "/vocabulary1.0.0/static/js/3.e50ae67a.chunk.js",
+    "static/js/3.e50ae67a.chunk.js.map": "/vocabulary1.0.0/static/js/3.e50ae67a.chunk.js.map",
+    "index.html": "/vocabulary1.0.0/index.html",
+    "static/css/main.fb04616d.chunk.css.map": "/vocabulary1.0.0/static/css/main.fb04616d.chunk.css.map",
+    "static/js/2.c91357fe.chunk.js.LICENSE.txt": "/vocabulary1.0.0/static/js/2.c91357fe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01aa542d.js",
+    "static/js/2.c91357fe.chunk.js",
+    "static/css/main.fb04616d.chunk.css",
+    "static/js/main.1a525852.chunk.js"
+  ]
+}
